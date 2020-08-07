@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Leonardo\\Desktop\\ds\\Programação Web\\Hello Word\\Hello Word.csproj",
+      "projectUniqueName": "C:\\Users\\Leonardo\\Documents\\MeusProjetos\\Language-CSharp\\Hello Word\\Hello Word.csproj",
       "projectName": "Hello Word",
-      "projectPath": "C:\\Users\\Leonardo\\Desktop\\ds\\Programação Web\\Hello Word\\Hello Word.csproj",
+      "projectPath": "C:\\Users\\Leonardo\\Documents\\MeusProjetos\\Language-CSharp\\Hello Word\\Hello Word.csproj",
       "packagesPath": "C:\\Users\\Leonardo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Leonardo\\Desktop\\ds\\Programação Web\\Hello Word\\obj\\",
+      "outputPath": "C:\\Users\\Leonardo\\Documents\\MeusProjetos\\Language-CSharp\\Hello Word\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
