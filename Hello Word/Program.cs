@@ -6,7 +6,9 @@ namespace Hello_Word
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world!");
+            Console.WriteLine("digite seu nome");
+            String nome = Console.ReadLine();
+            Console.WriteLine(nome);
         }
     }
 }
