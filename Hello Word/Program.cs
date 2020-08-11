@@ -10,7 +10,7 @@ namespace Hello_Word
             String nome = Console.ReadLine();
             Console.WriteLine("digite sua idade");
             int idade = int.Parse(Console.ReadLine());
-            Console.WriteLine(idade);
+            Console.WriteLine("seu nome e: "+nome+" sua idade e: "+idade);
         }
     }
 }
