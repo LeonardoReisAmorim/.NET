@@ -6,11 +6,11 @@ namespace Hello_Word
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("digite seu nome");
-            String nome = Console.ReadLine();
-            Console.WriteLine("digite sua idade");
-            int idade = int.Parse(Console.ReadLine());
-            Console.WriteLine("seu nome e: "+nome+" sua idade e: "+idade);
+            Console.WriteLine("digite quantas vezes quer q o loop continue");
+            int x = int.Parse(Console.ReadLine());
+            for(int i = 0; i<x; i++){
+                Console.WriteLine("leo");
+            }
         }
     }
 }
