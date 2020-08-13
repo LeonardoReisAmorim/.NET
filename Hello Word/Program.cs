@@ -6,11 +6,16 @@ namespace Hello_Word
     {
         static void Main(string[] args)
         {
-            double raio = double.Parse(Console.ReadLine());
-            double formula = 3.14*(raio*raio);
-            Console.WriteLine("digite o raio");
-
-            Console.WriteLine("o raio é: "+formula);
+            Console.WriteLine("digite o 1 valor");
+            double n1 = double.Parse(Console.ReadLine());
+            Console.WriteLine("digite o 2 valor");
+            double n2 = double.Parse(Console.ReadLine());
+            Console.WriteLine("digite o 3 valor");
+            double n3 = double.Parse(Console.ReadLine());
+            Console.WriteLine("digite o 4 valor");
+            double n4 = double.Parse(Console.ReadLine());
+            double conta = (n1*n2)-(n3*n4);
+            Console.WriteLine(conta);
         }
     }
 }
