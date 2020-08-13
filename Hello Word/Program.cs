@@ -15,7 +15,7 @@ namespace Hello_Word
             
             Console.WriteLine("seu nome e: "+nome);
             Console.WriteLine("tem :"+qt+" quartos");
-            Console.WriteLine("o seu produto custa: "+preco);
+            Console.WriteLine("o seu produto custa: "+preco.ToString("F2"));
         }
     }
 }
