@@ -6,7 +6,21 @@ namespace Hello_Word
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("consegui");
+            
+        }
+
+        static int comparaidades(int a, int b){
+            int m;
+            if(a==b){
+                return 0;
+            }
+            else if(a>b){
+                m = a;
+            }
+            else{
+                m = b;
+            }
+            return m;
         }
     }
 }
