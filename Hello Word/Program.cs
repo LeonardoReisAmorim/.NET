@@ -6,9 +6,7 @@ namespace Hello_Word
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("digite o primeiro numero");
-            int n1 = int.Parse(Console.ReadLine());
-            Console.WriteLine(n1);
+            Console.WriteLine("consegui");
         }
     }
 }
