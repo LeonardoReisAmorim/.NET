@@ -20,6 +20,12 @@ namespace Hello_Word
             Console.WriteLine("digite a quantidade de produtos que seram add no estoque");
             int add = int.Parse(Console.ReadLine());
             p.addprodutos(add);
+            Console.WriteLine("dados do produto \nNome: "+p.Nome+"\nPreço: "+p.Preco+"\nQuantidade: "+p.Quantidade+"\nTotal: "+p.valortotalestoque());
+
+            Console.WriteLine("digite a quantidade de produtos que seram removidos no estoque");
+            int remove = int.Parse(Console.ReadLine());
+            p.removeprodutos(remove);
+            Console.WriteLine("dados do produto \nNome: "+p.Nome+"\nPreço: "+p.Preco+"\nQuantidade: "+p.Quantidade+"\nTotal: "+p.valortotalestoque());
         }
     }
 }
