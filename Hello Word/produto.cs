@@ -1,14 +1,12 @@
 namespace Hello_Word
 {
-    public class produto
+    public class Produto
     {
-
-        
         public string Nome { get; set; }
         public double Preco { get; set; }
         public int Quantidade { get; set; }
 
-        public produto(string nome, double preco, int quantidade)
+        public Produto(string nome, double preco, int quantidade)
         {
             this.Nome = nome;
             this.Preco = preco;
@@ -16,7 +14,7 @@ namespace Hello_Word
 
         }
         
-        public produto()
+        public Produto()
         {
 
         }
