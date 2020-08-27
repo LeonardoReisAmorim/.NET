@@ -12,9 +12,17 @@ namespace Atividade2
             this.Idade = idade;
         }
 
-        public int maioridade(int idade1, int idade2){
-            if(idade1>idade2){
+        public Pessoa(){
+            
+        }
 
+        public int maioridade(int idade1, int idade2){
+            if(idade1==idade2){
+                return 0;
+            }else if(idade1>idade2){
+                return idade1;
+            }else{
+                return idade2;
             }
         }
     }

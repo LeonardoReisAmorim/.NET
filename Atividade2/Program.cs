@@ -6,7 +6,8 @@ namespace Atividade2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
+            Pessoa p1 = new Pessoa();
         }
     }
 }
