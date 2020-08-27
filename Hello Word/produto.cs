@@ -26,14 +26,13 @@ namespace Hello_Word
             return Total;
         }
 
-        public double addprodutos(int qt){
+        public void addprodutos(int qt){
             Total = (Quantidade+qt)*Preco;
-            return Total;
+            
         }
 
-        public double removeprodutos(int qt){
+        public void removeprodutos(int qt){
             Total = (Quantidade-qt)*Preco;
-            return Total;
         }
     }
 }
