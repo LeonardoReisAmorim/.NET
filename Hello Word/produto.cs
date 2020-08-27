@@ -30,5 +30,10 @@ namespace Hello_Word
             Total = (Quantidade+qt)*Preco;
             return Total;
         }
+
+        public double removeprodutos(int qt){
+            Total = (Quantidade-qt)*Preco;
+            return Total;
+        }
     }
 }
