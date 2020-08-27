@@ -2,33 +2,38 @@ namespace Hello_Word
 {
     public class produto
     {
+
         
-        public string nome { get; set; }
-        public double preco { get; set; }
-        public int quantidade { get; set; }
+        public string Nome { get; set; }
+        public double Preco { get; set; }
+        public int Quantidade { get; set; }
 
         public produto(string nome, double preco, int quantidade)
         {
-            this.nome = nome;
-            this.preco = preco;
-            this.quantidade = quantidade;
+            this.Nome = nome;
+            this.Preco = preco;
+            this.Quantidade = quantidade;
+
+        }
+        
+        public produto()
+        {
 
         }
 
-        public produto(){
-
+        public double valortotalestoque()
+        {
+            return Preco * Quantidade;
         }
 
-        public double valortotalestoque(){
-            return preco*quantidade;
+        public int addprodutos(int qt)
+        {
+            return Quantidade + qt;
         }
 
-        public int addprodutos(int qt){
-            return quantidade+qt;
-        }
-
-        public int removeproduto(int qt){
-            return quantidade-qt;
+        public int removeproduto(int qt)
+        {
+            return Quantidade - qt;
         }
     }
 }

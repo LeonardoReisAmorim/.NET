@@ -6,7 +6,7 @@ namespace Hello_Word
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("barril");    
+            Produto p = new Produto("nome", 45, 3);
         }
     }
 }
