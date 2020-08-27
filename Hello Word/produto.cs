@@ -5,14 +5,12 @@ namespace Hello_Word
         public string Nome { get; set; }
         public double Preco { get; set; }
         public int Quantidade { get; set; }
-        public double Total { get; set; }
 
         public Produto(string nome, double preco, int quantidade)
         {
             this.Nome = nome;
             this.Preco = preco;
             this.Quantidade = quantidade;
-            this.Total = quantidade*preco;
 
         }
         
@@ -23,17 +21,15 @@ namespace Hello_Word
 
         public double valortotalestoque()
         {
-            return Total;
+            return Preco*Quantidade;
         }
 
         public void addprodutos(int qt){
             Quantidade+=qt;
-            Total = (Quantidade+qt)*Preco;
         }
 
         public void removeprodutos(int qt){
             Quantidade-=qt;
-            Total = (Quantidade-qt)*Preco;
         }
     }
 }
