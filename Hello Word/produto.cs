@@ -12,6 +12,7 @@ namespace Hello_Word
             this.Nome = nome;
             this.Preco = preco;
             this.Quantidade = quantidade;
+            this.Total = quantidade*preco;
 
         }
         
@@ -22,7 +23,6 @@ namespace Hello_Word
 
         public double valortotalestoque()
         {
-            Total = Quantidade*Preco;
             return Total;
         }
 

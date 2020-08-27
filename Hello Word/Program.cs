@@ -16,6 +16,10 @@ namespace Hello_Word
             Produto p = new Produto(nome,preco,qt);
             
             Console.WriteLine("dados do produto \nNome: "+p.Nome+"\nPreço: "+p.Preco+"\nQuantidade: "+p.Quantidade+"\nTotal: "+p.valortotalestoque());
+
+            Console.WriteLine("digite a quantidade de produtos que seram add no estoque");
+            int add = int.Parse(Console.ReadLine());
+            p.addprodutos(add);
         }
     }
 }
