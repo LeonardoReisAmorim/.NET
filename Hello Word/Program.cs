@@ -14,8 +14,7 @@ namespace Hello_Word
             int qt = int.Parse(Console.ReadLine());
 
             Produto p = new Produto(nome,preco,qt);
-            double total = p.valortotalestoque();
-            Console.WriteLine("dados do produto: "+p.Nome+" preco: "+p.Preco+" quantidade"+p.Quantidade+" total: "+total);
+            
         }
     }
 }
