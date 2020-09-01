@@ -22,8 +22,8 @@ namespace Atividade2
 
         public int verificar_primeiro_semestre()
         {
-            int soma = Nota1 + Nota2 + Nota3;
-            if (soma >= 30)
+            Notatotal = Nota1 + Nota2 + Nota3;
+            if (Notatotal >= 30)
             {
                 return 0;
             }
@@ -35,14 +35,22 @@ namespace Atividade2
 
         public int verificar_segeter_semestre()
         {
-            int soma = Nota1 + Nota2 + Nota3;
-            if (soma >= 35)
+            int Notatotal = Nota1 + Nota2 + Nota3;
+            if (Notatotal >= 35)
             {
                 return 0;
             }
             else
             {
                 return 1;
+            }
+        }
+
+        public int verficartotal(){
+            if(Notatotal>=60){
+                return Notatotal;
+            }else{
+                return Notaminima-Notatotal;
             }
         }
 
