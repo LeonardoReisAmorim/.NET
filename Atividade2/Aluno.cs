@@ -20,37 +20,15 @@ namespace Atividade2
             this.Notaminima = 60;
         }
 
-        public int verificar_primeiro_semestre()
-        {
-            Notatotal = Nota1 + Nota2 + Nota3;
-            if (Notatotal >= 30)
-            {
-                return 0;
-            }
-            else
-            {
-                return 1;
-            }
-        }
-
-        public int verificar_segeter_semestre()
-        {
-            int Notatotal = Nota1 + Nota2 + Nota3;
-            if (Notatotal >= 35)
-            {
-                return 0;
-            }
-            else
-            {
-                return 1;
-            }
+        public int notatotal(){
+            return Nota1+Nota2+Nota3;
         }
 
         public int verficartotal(){
-            if(Notatotal>=60){
-                return Notatotal;
+            if(notatotal()>=60){
+                return notatotal();
             }else{
-                return Notaminima-Notatotal;
+                return Notaminima-notatotal();
             }
         }
 

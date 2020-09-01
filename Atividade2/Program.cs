@@ -6,7 +6,9 @@ namespace Atividade2
     {
         static void Main(string[] args)
         {
-           
+            Aluno a1 = new Aluno("Alex", 27, 31, 32);
+
+            Console.WriteLine("Nota final:"+a1.notatotal());
             
         }
     }
