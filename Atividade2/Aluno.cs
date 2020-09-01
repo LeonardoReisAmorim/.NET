@@ -8,7 +8,6 @@ namespace Atividade2
         public int Nota1 { get; set; }
         public int Nota2 { get; set; }
         public int Nota3 { get; set; }
-        public int Notatotal { get; set; }
         public int Notaminima { get; set; }
 
         public Aluno(string nome, int nota1, int nota2, int nota3)
@@ -24,12 +23,8 @@ namespace Atividade2
             return Nota1+Nota2+Nota3;
         }
 
-        public int verficartotal(){
-            if(notatotal()>=60){
-                return notatotal();
-            }else{
-                return Notaminima-notatotal();
-            }
+        public int faltaponto(int nota){
+            return Notaminima-nota;
         }
 
     }
