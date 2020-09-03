@@ -28,6 +28,8 @@ namespace Atividade2
            double valorsaque2 = double.Parse(Console.ReadLine());
            c1.sacar(valorsaque2);
            Console.WriteLine("Mostrar saldo atual de: "+c2.Nome+" saldo: "+c2.Saldo.ToString("F2"));
+
+           c1.transferir(50);
         }
     }
 }

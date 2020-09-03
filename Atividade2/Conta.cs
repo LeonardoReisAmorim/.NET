@@ -24,7 +24,5 @@ namespace Atividade2
             this.Saldo -= valor;
             return this.Saldo;
         }
-
-        
     }
 }
