@@ -27,7 +27,7 @@ namespace Atividade2
                    Console.WriteLine("pagamento: "+ft[i].pagamento());
                }else if(terce==2){ 
                    f[i] = new Funcionario();
-                   Console.Write("digite seu nome");
+                   Console.Write("digite seu nome: ");
                    f[i].Nome = Console.ReadLine();
                    Console.Write("digite a qt de horas trabalhadas: ");
                    f[i].HorasTrabalhadas = int.Parse(Console.ReadLine()); 
