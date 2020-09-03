@@ -6,6 +6,7 @@ namespace Atividade2
     {
         static void Main(string[] args)
         {
+            /*
            Console.WriteLine("digite quantos funcionarios existem:");
            int x = int.Parse(Console.ReadLine());
            FuncionarioTerceirizados[] ft = new FuncionarioTerceirizados[x];
@@ -38,6 +39,9 @@ namespace Atividade2
                    Console.WriteLine("digite um numero valido");
                } 
            }
+           */
+
+           
         }
     }
 }
