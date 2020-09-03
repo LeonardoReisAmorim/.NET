@@ -16,7 +16,7 @@ namespace Atividade2
 
         }
 
-        public string Etiqueta(){
+        public virtual string Etiqueta(){
             return "Produto: "+this.Nome+" preço: "+this.Preco;
         }
     }
