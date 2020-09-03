@@ -19,5 +19,12 @@ namespace Atividade2
         public void depositar(double valor){
             Saldo +=valor;
         }
+
+        public double transferir(double valor){
+            this.Saldo -= valor;
+            return this.Saldo;
+        }
+
+        
     }
 }
