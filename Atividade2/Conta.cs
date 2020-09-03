@@ -12,6 +12,10 @@ namespace Atividade2
             this.Saldo = saldo;
         }
 
+        public Conta(){
+            
+        }
+
         public void sacar(double valor){
             Saldo -= valor;
         }
