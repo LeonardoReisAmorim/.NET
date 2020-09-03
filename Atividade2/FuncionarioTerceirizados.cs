@@ -15,7 +15,7 @@ namespace Atividade2
         }
 
         public override double pagamento(){
-            double p = (this.DespejaAdicional*110)/100;
+            double p = this.DespejaAdicional*1.1;
             return (this.ValorPorHora*this.HorasTrabalhadas) + p;
         }
     }
