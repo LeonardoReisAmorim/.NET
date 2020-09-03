@@ -22,11 +22,11 @@ namespace Atividade2
            Console.WriteLine("Mostrar saldo atual de: "+c2.Nome+" saldo: "+c2.Saldo.ToString("F2"));
            Console.Write("Depositar: ");
            double valordeposito2 = double.Parse(Console.ReadLine());
-           c1.depositar(valordeposito2);
+           c2.depositar(valordeposito2);
            Console.WriteLine("Mostrar saldo atual de: "+c2.Nome+" saldo: "+c2.Saldo.ToString("F2")); 
            Console.Write("sacar: ");
            double valorsaque2 = double.Parse(Console.ReadLine());
-           c1.sacar(valorsaque2);
+           c2.sacar(valorsaque2);
            Console.WriteLine("Mostrar saldo atual de: "+c2.Nome+" saldo: "+c2.Saldo.ToString("F2"));
 
            c1.transferir(50);
