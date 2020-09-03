@@ -4,7 +4,7 @@ namespace Atividade2
     {
         public double LimiteEmprestimo { get; set; }
 
-        public ContaEmpresa(double limiteEmprestimo)
+        public ContaEmpresa(double limiteEmprestimo,string nome, int numero, double saldo) : base(nome,numero,saldo)
         {
             this.LimiteEmprestimo = limiteEmprestimo;
         }
