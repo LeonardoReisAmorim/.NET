@@ -41,7 +41,8 @@ namespace Atividade2
            }
            */
 
-           ProdutoImportado pi = new ProdutoImportado();
+           ProdutoImportado pi = new ProdutoImportado(20.00, "tablet", 260.00);
+           Console.WriteLine(pi.Etiqueta());
         }
     }
 }
