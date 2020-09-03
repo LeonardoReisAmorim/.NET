@@ -10,6 +10,10 @@ namespace Atividade2
             this.TaxaImportacao = taxaImportacao;
         }
 
+        public ProdutoImportado(){
+            
+        }
+
         public double precototal(){
             return this.Preco+this.TaxaImportacao;
         }

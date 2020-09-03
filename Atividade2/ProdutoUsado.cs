@@ -10,6 +10,10 @@ namespace Atividade2
             this.AnoFabricacao = anoFabricacao;
         }
 
+        public ProdutoUsado(){
+            
+        }
+
         public override string Etiqueta(){
             return "Produto: "+this.Nome+"(usado) preço: "+this.Preco+" ano de fabricação: "+this.AnoFabricacao;
         }
