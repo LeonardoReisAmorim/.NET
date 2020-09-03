@@ -1,5 +1,5 @@
 ﻿using System;
-
+using System.Collections.Generic;
 namespace Atividade2
 {
     class Program
@@ -25,7 +25,7 @@ namespace Atividade2
                    Console.WriteLine("pagamento: "+ft[i].pagamento());
                }else if(terce==2){
                    Funcionario[] f= new Funcionario[i];
-                   Console.WriteLine("digite seu nome");
+                   Console.Write("digite seu nome");
                    f[i].Nome = Console.ReadLine();
                    Console.Write("digite a qt de horas trabalhadas: ");
                    f[i].HorasTrabalhadas = int.Parse(Console.ReadLine()); 
