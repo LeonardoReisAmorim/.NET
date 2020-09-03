@@ -28,6 +28,9 @@ namespace Atividade2
                    f[i].Nome = Console.ReadLine();
                    Console.Write("digite a qt de horas trabalhadas: ");
                    f[i].HorasTrabalhadas = int.Parse(Console.ReadLine()); 
+                   Console.Write("digite o valor por hora: "); 
+                   f[i].ValorPorHora = double.Parse(Console.ReadLine());
+                   Console.WriteLine("pagamento: "+f[i].pagamento());
                } 
            }
         }
