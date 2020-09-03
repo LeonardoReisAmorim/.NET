@@ -18,7 +18,7 @@ namespace Atividade2
 
         }
 
-        public double pagamento(){
+        public virtual double pagamento(){
             return this.HorasTrabalhadas*this.ValorPorHora;
         }
     }
