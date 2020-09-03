@@ -6,6 +6,8 @@ namespace Atividade2
     {
         static void Main(string[] args)
         {
+           Conta c1 = new Conta("Maria", 1010, 200.00);
+
            
         }
     }
