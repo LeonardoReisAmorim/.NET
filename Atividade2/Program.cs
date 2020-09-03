@@ -30,6 +30,9 @@ namespace Atividade2
            Console.WriteLine("Mostrar saldo atual de: "+c2.Nome+" saldo: "+c2.Saldo.ToString("F2"));
 
            c1.transferir(50);
+           c2.depositar(50);
+           Console.WriteLine("Mostrar saldo atual de: "+c1.Nome+" saldo: "+c1.Saldo.ToString("F2")); 
+           Console.WriteLine("Mostrar saldo atual de: "+c2.Nome+" saldo: "+c2.Saldo.ToString("F2"));
         }
     }
 }
