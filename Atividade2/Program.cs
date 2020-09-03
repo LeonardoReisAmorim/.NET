@@ -43,6 +43,12 @@ namespace Atividade2
 
            ProdutoImportado pi = new ProdutoImportado(20.00, "tablet", 260.00);
            Console.WriteLine(pi.Etiqueta());
+
+           Produto pn = new Produto("notebook", 1100.00);
+           Console.WriteLine(pn.Etiqueta());
+
+           ProdutoUsado produtoUsado= new ProdutoUsado(2017, "iphone 7", 400.00);
+           Console.WriteLine(produtoUsado.Etiqueta());
         }
     }
 }
