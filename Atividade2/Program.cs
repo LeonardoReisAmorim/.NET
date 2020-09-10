@@ -51,6 +51,8 @@ namespace Atividade2
            ProdutoUsado produtoUsado= new ProdutoUsado(2017, "iphone 7", 400.00);
            Console.WriteLine(produtoUsado.Etiqueta());
            */
+
+           
         }
     }
 }
