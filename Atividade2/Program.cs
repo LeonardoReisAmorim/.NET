@@ -41,7 +41,7 @@ namespace Atividade2
            }
            */
            
-
+            /*
            ProdutoImportado pi = new ProdutoImportado(20.00, "tablet", 260.00);
            Console.WriteLine(pi.Etiqueta());
 
@@ -50,6 +50,7 @@ namespace Atividade2
 
            ProdutoUsado produtoUsado= new ProdutoUsado(2017, "iphone 7", 400.00);
            Console.WriteLine(produtoUsado.Etiqueta());
+           */
         }
     }
 }
