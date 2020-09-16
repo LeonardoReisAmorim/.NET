@@ -40,19 +40,18 @@ namespace Atividade2
                } 
            }
            */
-           
-            /*
-           ProdutoImportado pi = new ProdutoImportado(20.00, "tablet", 260.00);
-           Console.WriteLine(pi.Etiqueta());
 
-           Produto pn = new Produto("notebook", 1100.00);
-           Console.WriteLine(pn.Etiqueta());
+           List<string> list = new List<string>();
 
-           ProdutoUsado produtoUsado= new ProdutoUsado(2017, "iphone 7", 400.00);
-           Console.WriteLine(produtoUsado.Etiqueta());
-           */
+           list.Add("leonardo");
+           list.Add("maria");
+           list.Add("carlos");
+           list.Add("caio");
 
-           
+           foreach(string i in list){
+               Console.WriteLine(i);
+           }
+            
         }
     }
 }
