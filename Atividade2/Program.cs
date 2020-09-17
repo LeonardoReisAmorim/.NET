@@ -48,7 +48,16 @@ namespace Atividade2
            list.Add("carlos");
            list.Add("caio");
 
-           foreach(string i in list){
+           //foreach(string i in list){
+           //    Console.WriteLine(i);
+           //}
+
+           //string res = list.Find(x => x=="leonardo");
+           //Console.WriteLine(res);
+
+           List<string> newlist = list.FindAll(x => x.Length>5);
+
+           foreach(string i in newlist){
                Console.WriteLine(i);
            }
             
