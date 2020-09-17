@@ -13,9 +13,16 @@ namespace Atividade2
            list.Add(p1);
            list.Add(p2);
 
-           foreach(Pessoa i in list){
-               Console.WriteLine(i.Nome);
-           } 
+           //foreach(Pessoa i in list){
+            //   Console.WriteLine(i.Idade);
+           //} 
+
+           Pessoa res = list.Find(x => x.Nome.Equals("leo"));
+          
+               Console.WriteLine(res.Idade+" "+res.Nome);
+          
+
+           
         }
     }
 }
