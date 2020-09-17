@@ -6,33 +6,30 @@ namespace Atividade2
     {
         static void Main(string[] args)
         {
-           List<Pessoa> list = new List<Pessoa>();
-           Pessoa p1 = new Pessoa("leo", 30);
-           Pessoa p2 = new Pessoa("maria", 17);
-           Pessoa p3 = new Pessoa("joao", 25);
-           Pessoa p4 = new Pessoa("alice", 16);
+           List<Funcionarioss> list = new List<Funcionarioss>();
+           Funcionarioss f1 = new Funcionarioss("maria brown", 333, 4000.00);
+           Funcionarioss f2 = new Funcionarioss("alex grey", 536, 3000.00);
+           Funcionarioss f3 = new Funcionarioss("bob green", 772, 5000.00);
+           list.Add(f1);
+           list.Add(f2);
+           list.Add(f3);
 
-           list.Add(p1);
-           list.Add(p2);
-           list.Add(p3);
-           list.Add(p4);
+           Console.WriteLine("entre com o id do funcionario que deseja pesquisar: ");
+           int id = int.Parse(Console.ReadLine());
 
-           //foreach(Pessoa i in list){
-            //   Console.WriteLine(i.Idade);
-           //} 
+           Funcionarioss pesquisado = list.Find(x => x.Id==id);
 
-           //Pessoa res = list.Find(x => x.Nome.Equals("leo"));
-          
-            //   Console.WriteLine(res.Idade+" "+res.Nome);
+           Console.WriteLine("entre com a porcentagem: ");
+           double porcent = double.Parse(Console.ReadLine());
+           pesquisado.ReajustarSal(porcent);
+           pesquisado = f2;
+           //list.Insert(1, pesquisado);
+           //list.Remove(f2);
+           Console.WriteLine("atualizado lista de funcionarios");
 
-            List<Pessoa> novalista = list.FindAll(x => x.Idade <= 18);
-
-            foreach(Pessoa i in novalista){
-                Console.WriteLine(i.Nome+" "+i.Idade);
-            }
-          
-
-           
+           foreach(Funcionarioss i in list){
+               Console.WriteLine(i.Id+" "+i.Nome+" "+i.Salario.ToString("F2"));
+           }
         }
     }
 }
