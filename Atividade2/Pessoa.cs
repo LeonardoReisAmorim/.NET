@@ -9,8 +9,7 @@ namespace Atividade2
         public Pessoa(string nome, int idade) 
         {
             this.Nome = nome;
-                this.Idade = idade;
-               
+            this.Idade = idade;   
         }
     }
 }
