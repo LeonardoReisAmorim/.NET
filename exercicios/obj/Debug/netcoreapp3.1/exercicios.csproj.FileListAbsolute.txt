@@ -1,0 +1,13 @@
+C:\Users\Leonardo\Documents\MeusProjetos\Language-CSharp\exercicios\bin\Debug\netcoreapp3.1\exercicios.exe
+C:\Users\Leonardo\Documents\MeusProjetos\Language-CSharp\exercicios\bin\Debug\netcoreapp3.1\exercicios.deps.json
+C:\Users\Leonardo\Documents\MeusProjetos\Language-CSharp\exercicios\bin\Debug\netcoreapp3.1\exercicios.runtimeconfig.json
+C:\Users\Leonardo\Documents\MeusProjetos\Language-CSharp\exercicios\bin\Debug\netcoreapp3.1\exercicios.runtimeconfig.dev.json
+C:\Users\Leonardo\Documents\MeusProjetos\Language-CSharp\exercicios\bin\Debug\netcoreapp3.1\exercicios.dll
+C:\Users\Leonardo\Documents\MeusProjetos\Language-CSharp\exercicios\bin\Debug\netcoreapp3.1\exercicios.pdb
+C:\Users\Leonardo\Documents\MeusProjetos\Language-CSharp\exercicios\obj\Debug\netcoreapp3.1\exercicios.csprojAssemblyReference.cache
+C:\Users\Leonardo\Documents\MeusProjetos\Language-CSharp\exercicios\obj\Debug\netcoreapp3.1\exercicios.AssemblyInfoInputs.cache
+C:\Users\Leonardo\Documents\MeusProjetos\Language-CSharp\exercicios\obj\Debug\netcoreapp3.1\exercicios.AssemblyInfo.cs
+C:\Users\Leonardo\Documents\MeusProjetos\Language-CSharp\exercicios\obj\Debug\netcoreapp3.1\exercicios.csproj.CoreCompileInputs.cache
+C:\Users\Leonardo\Documents\MeusProjetos\Language-CSharp\exercicios\obj\Debug\netcoreapp3.1\exercicios.dll
+C:\Users\Leonardo\Documents\MeusProjetos\Language-CSharp\exercicios\obj\Debug\netcoreapp3.1\exercicios.pdb
+C:\Users\Leonardo\Documents\MeusProjetos\Language-CSharp\exercicios\obj\Debug\netcoreapp3.1\exercicios.genruntimeconfig.cache

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace exercicios
 {
@@ -14,11 +15,24 @@ namespace exercicios
             lista.Add(a1);
             lista.Add(a2);
             lista.Add(a3);
-
+            
             foreach(Aluguel i in lista){
-                Console.WriteLine("aluguel: "+lista.Count);
                 Console.WriteLine("nome: "+i.Nome+" email: "+i.Email+" quarto: "+i.Quarto);
             }
+
+            
+
+            Console.WriteLine("quartos disponiveis");
+            List<Aluguel> lista2 = lista.OrderBy(x => x.Quarto).ToList();
+            foreach(Aluguel i in lista2){
+                Console.WriteLine(i.Quarto+": "+i.Nome+", "+", "+i.Email);
+            }
+            
+
+
+
+           
+
         }
     }
 }
