@@ -11,7 +11,6 @@ namespace exercicios
            Produto p1 = new Produto("a", "b", 10.0);
            Produto p2 = new Produto("c", "d", 20.0);
            Produto p3 = new Produto("e", "f", 30.0);
-           Produto p4 = new Produto("g", "h", 40.0);
 
            
         }
