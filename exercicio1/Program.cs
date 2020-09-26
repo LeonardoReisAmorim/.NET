@@ -6,7 +6,8 @@ namespace exercicio1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Aluno a1 = new Aluno(123, "leo", "aa", 7,8,9);
+            Turma turma = new Turma(1, "ds");
         }
     }
 }
