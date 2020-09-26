@@ -25,6 +25,15 @@ namespace exercicio1
             this.Alunos.Remove(x);
         }
 
-        public string 
+        public string Listar(){
+            string strValores = "";
+
+            foreach (Aluno i in this.Alunos)
+            {
+                strValores += "\n" + i.ToString();
+                
+            }
+            return strValores;
+        }
     }
 }

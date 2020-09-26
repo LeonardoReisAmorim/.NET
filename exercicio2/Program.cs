@@ -14,9 +14,8 @@ namespace exercicio1
             turma.AdicionarAluno(a2);
             turma.AdicionarAluno(a3);
 
-            foreach(Aluno i in turma.Alunos){
-                Console.WriteLine("Aluno: "+i.Primeiro_nome+" "+i.Sobrenome+" matricula "+i.Matricula+ " Primeira nota: "+i.Nota1+" Segunda nota: "+i.Nota2+ " Terceira nota: "+i.Nota3);
-            }
+            
+            Console.WriteLine("dados dos alunos: "+turma.Listar());
         }
     }
 }
