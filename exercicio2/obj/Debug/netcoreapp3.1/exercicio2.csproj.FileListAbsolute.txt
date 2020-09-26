@@ -2,3 +2,12 @@ C:\Users\Leonardo\Documents\MeusProjetos\Language-CSharp\exercicio2\obj\Debug\ne
 C:\Users\Leonardo\Documents\MeusProjetos\Language-CSharp\exercicio2\obj\Debug\netcoreapp3.1\exercicio2.AssemblyInfoInputs.cache
 C:\Users\Leonardo\Documents\MeusProjetos\Language-CSharp\exercicio2\obj\Debug\netcoreapp3.1\exercicio2.AssemblyInfo.cs
 C:\Users\Leonardo\Documents\MeusProjetos\Language-CSharp\exercicio2\obj\Debug\netcoreapp3.1\exercicio2.csproj.CoreCompileInputs.cache
+C:\Users\Leonardo\Documents\MeusProjetos\Language-CSharp\exercicio2\bin\Debug\netcoreapp3.1\exercicio2.exe
+C:\Users\Leonardo\Documents\MeusProjetos\Language-CSharp\exercicio2\bin\Debug\netcoreapp3.1\exercicio2.deps.json
+C:\Users\Leonardo\Documents\MeusProjetos\Language-CSharp\exercicio2\bin\Debug\netcoreapp3.1\exercicio2.runtimeconfig.json
+C:\Users\Leonardo\Documents\MeusProjetos\Language-CSharp\exercicio2\bin\Debug\netcoreapp3.1\exercicio2.runtimeconfig.dev.json
+C:\Users\Leonardo\Documents\MeusProjetos\Language-CSharp\exercicio2\bin\Debug\netcoreapp3.1\exercicio2.dll
+C:\Users\Leonardo\Documents\MeusProjetos\Language-CSharp\exercicio2\bin\Debug\netcoreapp3.1\exercicio2.pdb
+C:\Users\Leonardo\Documents\MeusProjetos\Language-CSharp\exercicio2\obj\Debug\netcoreapp3.1\exercicio2.dll
+C:\Users\Leonardo\Documents\MeusProjetos\Language-CSharp\exercicio2\obj\Debug\netcoreapp3.1\exercicio2.pdb
+C:\Users\Leonardo\Documents\MeusProjetos\Language-CSharp\exercicio2\obj\Debug\netcoreapp3.1\exercicio2.genruntimeconfig.cache

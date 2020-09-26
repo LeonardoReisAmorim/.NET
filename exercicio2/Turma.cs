@@ -25,10 +25,6 @@ namespace exercicio1
             this.Alunos.Remove(x);
         }
 
-        public string MostrarAlunos(){
-            foreach(Aluno i in this.Alunos){
-                return "Aluno: "+i.Primeiro_nome+" "+i.Sobrenome+" matricula"+i.Matricula+ "Primeira nota: "+i.Nota1+" Segunda nota: "+i.Nota2+ "Terceira nota: "+i.Nota3; 
-            }
-        }
+        public string 
     }
 }
