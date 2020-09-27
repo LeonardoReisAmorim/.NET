@@ -25,9 +25,14 @@ namespace exercicio1
             this.Alunos.Remove(x);
         }
         */
-        public void RemoverAluno(string x){
-            Aluno res = this.Alunos.Find(x => x.Equals(x));
-            this.Alunos.Remove(res);
+        public int RemoverAluno(string n){
+            int achei = 0;
+            Aluno res = this.Alunos.Find(x => x.Primeiro_nome.Equals(n));
+            if(res != null){
+                this.Alunos.Remove(res);
+                achei = 1;
+            }
+            return achei;
         }
         
         /*
