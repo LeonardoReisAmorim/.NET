@@ -15,7 +15,7 @@ namespace exercicio1
             turma.AdicionarAluno(a3);
 
             
-            //Console.WriteLine("dados dos alunos: "+turma.Listar());
+            
         }
     }
 }

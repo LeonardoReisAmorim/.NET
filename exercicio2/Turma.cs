@@ -24,21 +24,24 @@ namespace exercicio1
         public void RemoverAluno(Aluno x){
             this.Alunos.Remove(x);
         }
-
+        /*
         public void RemoverAluno2(string x){
             Aluno res = this.Alunos.Find(x => x.Equals(x));
             this.Alunos.Remove(res);
         }
+        */
+        /*
+        public string Listar(){
+            string strValores = "";
 
-       // public string Listar(){
-        //    string strValores = "";
-
-        //    foreach (Aluno i in this.Alunos)
-         //   {
-         //       strValores += "\n" + i.ToString();
+            foreach (Aluno i in this.Alunos)
+            {
+                strValores += "\n" + i.ToString();
                 
-         //   }
-         //   return strValores;
-        //}
+            }
+            return strValores;
+        }
+        */
+        
     }
 }
